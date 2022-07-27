@@ -1,0 +1,73 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0px;
+font-size: 16px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+h1{
+    height: fit-content;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: -100px;
+    font-size: 60px;
+    text-align: center;
+    transform: rotateZ(-45deg);
+    background-color: rgba(22, 22, 22, 0.747);
+    box-shadow:
+    0 5px 5px rgba(0, 0, 0, 0.37),
+    0 15px rgb(250, 226, 91),
+    0px -1px 5px rgba(255, 255, 255, 0.24);
+    color: rgb(250, 226, 91);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    margin-top: 100px;
+    margin-left: 30%;
+    padding: 5px;
+    font-size: 25px;
+    color: rgb(250, 226, 91);
+    background-color: rgb(22, 22, 22);
+    box-shadow:
+    5px 5px 5px rgba(0, 0, 0, 0.37),
+    10px 10px rgb(250, 226, 91),
+    -1px -1px 5px rgba(255, 255, 255, 0.24);
+    width: 290px;
+}
+
+dl{
+    margin: 10px 30%;
+    background-color:rgb(22, 22, 22);
+    padding: 5px;
+    box-shadow:
+    5px 5px 5px rgba(0, 0, 0, 0.37),
+    10px 10px rgb(250, 226, 91),
+    -1px -1px 5px rgba(255, 255, 255, 0.212);
+    
+    padding: 10px 20px ;
+}
+
+dt{
+    color: rgb(250, 226, 91);
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+dd{
+    background-color: rgb(53, 53, 53);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.segundaLista{
+    margin-bottom: 30px;
+}
